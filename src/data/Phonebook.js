@@ -9,7 +9,7 @@
         mobile: 9765346354
     },
     {
-        name: 'yogita',
+        name: 'Yogita',
         mobile: 9822775100
     },
     {
@@ -21,8 +21,12 @@
         mobile: 9745567872
     },
     {
-        name: 'rani',
+        name: 'Rani',
         mobile: 7410732518
+    },
+    {
+        name: 'Shweta',
+        mobile: 8564737234
     }
 
 ]

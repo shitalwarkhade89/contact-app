@@ -33,7 +33,9 @@ import ContactCard from "../../components/ContactCard/ContactCard";
             return <ContactCard key ={index} name={name} mobile={mobile}/>
         } )}
        </div>
-       
+       {
+        Contact.length === 0 ? <h2 className="text-center">No contact found</h2> : null
+       }
        </>
     )
  }

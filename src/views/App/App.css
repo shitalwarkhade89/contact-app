@@ -1,11 +1,16 @@
 .text-center{
     text-align: center;
+    font-size: 40px;
+    color: rgba(252, 12, 92, 0.886);
+font-weight: bold;
+font-family: sans-serif;
 }
 .searchbar{
    display: block;
     margin: 0 auto;
     font-size: 30px;
     padding: 5px 15px ;
+    border: 1px solid  rgb(247, 8, 88);
     border-radius: 30px;
 
 }
