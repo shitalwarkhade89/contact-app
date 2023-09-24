@@ -1,0 +1,11 @@
+.text-center{
+    text-align: center;
+}
+.searchbar{
+   display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    padding: 5px 15px ;
+    border-radius: 30px;
+
+}
