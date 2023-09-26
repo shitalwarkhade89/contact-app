@@ -3,7 +3,7 @@ import { phonebook } from "../../data/Phonebook";
 import './App.css'
 import ContactCard from "../../components/ContactCard/ContactCard";
  function App() {
-   const [Contact, setContacts] = useState(phonebook);
+   const [contacts, setContacts] = useState(phonebook);
    const [searchterm, setsearchterm] =useState('')
    useEffect (() => {
    const filteredContacts =phonebook.filter((contact) =>{
@@ -25,8 +25,8 @@ import ContactCard from "../../components/ContactCard/ContactCard";
         value={searchterm}
         onChange={(e) => {setsearchterm(e.target.value)}}
         />
-       <div>
-        {Contact.map((contact ,index) =>{
+       <div className="contacts-container">
+        {contacts.map((contact ,index) =>{
             const {name,mobile} =contact;
 
 
@@ -34,7 +34,7 @@ import ContactCard from "../../components/ContactCard/ContactCard";
         } )}
        </div>
        {
-        Contact.length === 0 ? <h2 className="text-center">No contact found</h2> : null
+        contacts.length === 0 ? <h2 className="text-center">No contact found</h2> : null
        }
        </>
     )
