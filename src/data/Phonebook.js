@@ -1,60 +1,57 @@
  export const phonebook = [
     {
         name: 'Shital',
-        mobile: 9309382528
+        mobile: 8567875647
     },
 
     {
-        name: 'Snehal Warkhade',
-        mobile: 9699141663
+        name: 'Snehal',
+        mobile: 9767895644
     },
     {
         name: 'Shweta',
-        mobile: 8208793074
+        mobile: 8345678876
       
     },
     {
-        name: 'Sagar Warkhade',
-        mobile: 9975306212
+        name: 'Sagar ',
+        mobile: 9970886534
     },
     {
-        name: 'Suraj Warkhade',
-        mobile: 8389791815
+        name: 'Suraj',
+        mobile: 9756534232
     },
     {
-        name: 'Surya Warkhade',
-        mobile: 9112325092
+        name: 'Surya',
+        mobile: 9123456577
     },
     {
         name: 'Viraj Warkhade',
-        mobile: 8999835272
+        mobile: 8978956345
     },
     {
         name: 'Shivam Warkhade',
-        mobile: 9970330548
+        mobile: 9876542345
     },
     {
-        name: 'Appa',
-        mobile: 8551005277
+        name: 'Prabhakar',
+        mobile: 8587906544
     },
     {
-        name: 'Papa',
-        mobile: 9763894263
+        name: 'papa',
+        mobile: 9763878996
     },
     {
         name: 'Aaba',
-        mobile: 9860793088
+        mobile: 9865432356
     },
     {
         name: 'Appa',
-        mobile: 8551005277
+        mobile: 7689645356
     },
     {
         name: 'Nana',
-        mobile: 9096902659
-    }
-
-
-
+        mobile: 9087654323
+    
 
 ]
